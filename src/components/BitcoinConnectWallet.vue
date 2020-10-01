@@ -5,6 +5,7 @@
         :value="{walletName: 'Select your wallet', type: null}"
         disabled
       >Select your wallet</b-form-select-option>
+      <b-form-select-option :value="{walletName: 'BitBoxApp', type: 'electrum'}">BitBoxApp</b-form-select-option>
       <b-form-select-option :value="{walletName: 'Blockstream Green', type: 'p2p'}">Blockstream Green</b-form-select-option>
       <b-form-select-option :value="{walletName: 'BlueWallet (on-chain only)', type: 'electrum'}">BlueWallet</b-form-select-option>
       <b-form-select-option :value="{walletName: 'Electrum', type: 'electrum'}">Electrum</b-form-select-option>
